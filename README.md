@@ -4,7 +4,7 @@ AWS lambda template for python (with local package deployment using cli). Starte
 ## Notes
 - function handler: should be your script_file.lambda_handler (online only sample typically have this as lambda.lambda_handler)
 - Role: is not set here. Can be set on the AWS ui (https://console.aws.amazon.com/lambda/home?region=us-east-1#/functions/). 
--- This should be Role: choose an existing role. Existing Role: lambda_basic_execution
+* This should be Role: choose an existing role. Existing Role: lambda_basic_execution
 
 ## Prerequisites
 - Python (the included script use version 2.7)
